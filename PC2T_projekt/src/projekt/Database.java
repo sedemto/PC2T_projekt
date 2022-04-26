@@ -139,7 +139,7 @@ public class Database {
 			averageHum += student.getAverageMark();
 		}
 		averageTech = averageTech/tech.size();
-		averageHum = averageHum/tech.size();
+		averageHum = averageHum/hum.size();
 		System.out.println("Priemer technickeho oboru: "+averageTech+ " Priemer humanitneho oboru: "+averageHum);
 	}
 	// h
